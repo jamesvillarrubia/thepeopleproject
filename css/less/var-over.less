@@ -1,0 +1,129 @@
+body{
+	font-family: "Lato", sans-serif;
+	color: @tblack;
+	font-weight: 400;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Oswald:400,300,700);
+
+@tblack: #010101;
+@tgray: #a7a9ab;
+@tlightgray: #f1efef;
+@tlightblue: #02b6e6;
+@tblue: #099ec2;
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+@gray:                   lighten(@gray-base, 33.5%); // #555
+@gray-light:             lighten(@gray-base, 46.7%); // #777
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+
+@brand-primary:         @tlightblue;
+
+
+@colors: 'tblack', 'tgray', 'tlightgray', 'tlightblue','tblue';
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  "Lato", Helvetica, sans-serif;
+@font-family-base:        @font-family-sans-serif;
+@font-size-base:          10px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+@font-size-h1:            floor((@font-size-base * 3.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 3.0)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 2.4)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.8)); // ~18px
+@font-size-h5:            ceil((@font-size-base * 1.4)); // ~18px
+@font-size-h6:            ceil((@font-size-base * 1.2)); // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        1.428571429; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+//** By default, this inherits from the `<body>`.
+@headings-font-family:    inherit;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
+
+
+@navbar-height:			100px;
+
+
+.headfont{
+	font-family: "Oswald", "Oswald", sans-serif;
+} 
+.bodyfont{
+	font-family: "Lato", Helvetica, sans-serif;
+}
+.lightfont{
+	font-weight: 100;
+}
+.upperfont{
+	text-transform: uppercase;
+}
+.heavyfont{
+	font-weight: 700;
+}
+
+
+
+
+
+
+.bd-{
+    .-(@i: length(@colors)) when (@i > 0) {
+        @name: e(extract(@colors, @i));
+        &@{name} {border-color: @@name}
+        &hv-@{name} {border-color: @@name}
+        .-((@i - 1));
+    } .-;
+}
+
+
+.tx-{
+    .-(@i: length(@colors)) when (@i > 0) {
+        @name: e(extract(@colors, @i));
+        &@{name} {color: @@name}
+        &hv-@{name} {color: @@name}
+        .-((@i - 1));
+    } .-;
+}
+
+.bg-{
+    .-(@i: length(@colors)) when (@i > 0) {
+        @name: e(extract(@colors, @i));
+        &@{name} {background-color: @@name}
+        &hv-@{name} {background-color: @@name}
+        .-((@i - 1));
+    } .-;
+}
+
+
+
+.full{
+	&-w{width: 100%;}
+	&-h{height: 100%;}
+}
+
+.d-in-b{
+	display:inline-block;
+}
+.d-in{
+	display:inline;
+}
+
+
+.vertical-align() {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
