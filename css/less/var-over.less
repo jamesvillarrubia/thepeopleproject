@@ -11,6 +11,13 @@ body{
 @tlightgray: #f1efef;
 @tlightblue: #02b6e6;
 @tblue: #099ec2;
+@twhite: #ffffff;
+@black: #010101;
+@gray: #a7a9ab;
+@lightgray: #f1efef;
+@lightblue: #02b6e6;
+@blue: #099ec2;
+@white: #ffffff;
 
 @gray-base:              #000;
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
@@ -22,7 +29,7 @@ body{
 @brand-primary:         @tlightblue;
 
 
-@colors: 'tblack', 'tgray', 'tlightgray', 'tlightblue','tblue';
+@colors: 'black', 'gray', 'lightgray', 'lightblue', 'blue','white';
 
 
 //== Typography
@@ -81,7 +88,7 @@ body{
     .-(@i: length(@colors)) when (@i > 0) {
         @name: e(extract(@colors, @i));
         &@{name} {border-color: @@name}
-        &hv-@{name} {border-color: @@name}
+        &hv-@{name}:hover {border-color: @@name}
         .-((@i - 1));
     } .-;
 }
@@ -91,7 +98,8 @@ body{
     .-(@i: length(@colors)) when (@i > 0) {
         @name: e(extract(@colors, @i));
         &@{name} {color: @@name}
-        &hv-@{name} {color: @@name}
+        &hv-@{name}:hover {color: @@name}
+        &vs-@{name}:visited {color: @@name}
         .-((@i - 1));
     } .-;
 }
@@ -100,10 +108,59 @@ body{
     .-(@i: length(@colors)) when (@i > 0) {
         @name: e(extract(@colors, @i));
         &@{name} {background-color: @@name}
-        &hv-@{name} {background-color: @@name}
+        &hv-@{name}:hover {background-color: @@name}
         .-((@i - 1));
     } .-;
 }
+
+
+@base-space: 10px;
+
+.pd{
+  &-v-xs{padding-top: 1*@base-space;padding-bottom: 1*@base-space;}
+  &-v-sm{padding-top: 2*@base-space;padding-bottom: 2*@base-space;}
+  &-v-md{padding-top: 3.5*@base-space;padding-bottom: 3.5*@base-space;}
+  &-v-lg{padding-top: 5*@base-space;padding-bottom: 5*@base-space;}
+  &-v-xl{padding-top: 10*@base-space;padding-bottom: 10*@base-space;}
+  &-h-xs{padding-left: 1*@base-space;padding-right: 1*@base-space;}
+  &-h-sm{padding-left: 2*@base-space;padding-right: 2*@base-space;}
+  &-h-md{padding-left: 3.5*@base-space;padding-right: 3.5*@base-space;}
+  &-h-lg{padding-left: 5*@base-space;padding-right: 5*@base-space;}
+  &-h-xl{padding-left: 10*@base-space;padding-right: 10*@base-space;}
+  &-xs{padding: 1*@base-space;}
+  &-sm{padding: 2*@base-space;}
+  &-md{padding: 3.5*@base-space;}
+  &-lg{padding: 5*@base-space;}
+  &-xl{padding: 10*@base-space;}
+  &-n{padding:0px;}
+  &-v-n{padding-top:0px; padding-bottom: 0px;}
+  &-h-n{padding-left:0px;padding-right: 0px;}
+}
+.mg{
+  &-v-xs{margin-top: 1*@base-space;margin-bottom: 1*@base-space;}
+  &-v-sm{margin-top: 2*@base-space;margin-bottom: 2*@base-space;}
+  &-v-md{margin-top: 3.5*@base-space;margin-bottom: 3.5*@base-space;}
+  &-v-lg{margin-top: 5*@base-space;margin-bottom: 5*@base-space;}
+  &-v-xl{margin-top: 10*@base-space;margin-bottom: 10*@base-space;}
+  &-h-xs{margin-left: 1*@base-space;margin-right: 1*@base-space;}
+  &-h-sm{margin-left: 2*@base-space;margin-right: 2*@base-space;}
+  &-h-md{margin-left: 3.5*@base-space;margin-right: 3.5*@base-space;}
+  &-h-lg{margin-left: 5*@base-space;margin-right: 5*@base-space;}
+  &-h-xl{margin-left: 10*@base-space;margin-right: 10*@base-space;}
+  &-xs{margin: 1*@base-space;}
+  &-sm{margin: 2*@base-space;}
+  &-md{margin: 3.5*@base-space;}
+  &-lg{margin: 5*@base-space;}
+  &-xl{margin: 10*@base-space;}
+  &-n{margin:0px;}
+  &-v-n{margin-top:0px; margin-bottom: 0px;}
+  &-h-n{margin-left:0px;margin-right: 0px;}
+}
+
+
+
+
+
 
 
 

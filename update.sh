@@ -64,7 +64,7 @@ elif [[ "$1" == "backup" && "$2" == "prod" ]]; then
 	echo ""
 
 elif [[ "$1" == "deploy" && "$2" == "to" && "$3" == "stage" ]]; then
-
+	cap deploy
 	echo ""
 
 elif [ "$1" == "help" ]; then
@@ -87,7 +87,7 @@ elif [ "$1" == "help" ]; then
 	echo "\033[32;1m  *      tpp help				- Lists all the commands \033[0m"
 
 elif [ "$1" == "chuck" ]; then
-
+	echo ''
 
 elif [ "$1"  == "" ]; then
 	eval cd "${myloc}"
