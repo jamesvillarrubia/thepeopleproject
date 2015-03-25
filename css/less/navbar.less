@@ -4,19 +4,45 @@
 	width: 100%;
 	z-index: 1000;
 	height: 100px;
+	text-align: center;
 	#menu-toggle{
 		height: 100%;
 		display: inline-block;
+		float: left;
 		> div{
 			.vertical-align;
 			display: inline-block;
+			vertical-align: middle;
+  			line-height: 20px;
+  			font-size: 15px;
+  			color: @tblack;
+  			.upperfont;
+  			.heavyfont;
 		}
+		
 		padding: 10px;
+	}
+	.logobox{
+		height: 100%;
+		display: inline-block;
+		padding: 10px;
+		div{
+			.vertical-align;
+		}
+	}
+	.namebox{
+		height: 100%;
+		display: inline-block;
+		padding: 10px;
+		float: right;
+		a{
+			.vertical-align;
+		}
 	}
 	.menu-hamburger-wrap{
 		div {
-			border: 1px solid white;
-			height: 5px;
+			border: 1px solid @tblack;
+			height: 4px;
 			width: 25px;
 			margin-bottom:2px;
 		}
@@ -24,6 +50,7 @@
 			padding-left: 10px;
 		}
 	}
+
 }
 #page-content-wrapper{
 	padding-top: 120px;
