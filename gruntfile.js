@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: [{
-              'js/output.min.js': ['js/jquery-1.11.2.js', 'js/bootstrap.js']
+              'js/output.min.js': ['js/jquery-1.11.2.js', 'js/bootstrap.js','js/moment.js','js/querybuilder.js']
           }]
       }
     }
