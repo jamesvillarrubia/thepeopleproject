@@ -1,6 +1,5 @@
 #navbar{
 	background-color: @tlightgray;
-	position: fixed;
 	width: 100%;
 	z-index: 1000;
 	height: 100px;
@@ -9,6 +8,7 @@
 		height: 100%;
 		display: inline-block;
 		float: left;
+		text-decoration: none;
 		> div{
 			.vertical-align;
 			display: inline-block;
@@ -19,13 +19,15 @@
   			.upperfont;
   			.heavyfont;
 		}
-		
 		padding: 10px;
 	}
 	.logobox{
 		height: 100%;
 		display: inline-block;
 		padding: 10px;
+		left: 50%;
+  		position: absolute;
+  		margin-left: -100px;
 		div{
 			.vertical-align;
 		}
@@ -35,8 +37,24 @@
 		display: inline-block;
 		padding: 10px;
 		float: right;
-		a{
+		a.block-set{
+			min-width: 140px;
 			.vertical-align;
+			text-decoration: none;
+			&:focus{
+				color: @twhite;
+			}
+		}
+		.user{
+			.vertical-align;
+			 width: 30px;
+			  height: 30px;
+			  display: inline-block;
+			  line-height: 40px;
+			  font-size: 25px;
+			  vertical-align: top;
+			  overflow: hidden;
+			  margin-right: 10px;
 		}
 	}
 	.menu-hamburger-wrap{
@@ -50,6 +68,11 @@
 			padding-left: 10px;
 		}
 	}
+	font-size: 15px;
+  	color: @tblack;
+  	#wrapper.toggled-right & {
+  		//margin-left: -250px;
+  	}
 
 }
 #page-content-wrapper{
