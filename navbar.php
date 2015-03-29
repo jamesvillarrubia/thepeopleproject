@@ -19,7 +19,7 @@
 			</a>
 
 			<div class="logobox">
-				<img src="images/blue_logo.png" class="img-responsive full-h">
+				<img src="images/blue_logo.png" class="full-h">
 			</div>
 			<div class="namebox">
 				<span class="user icon-user2 img-circle bd-black bd-xs"></span>

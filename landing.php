@@ -92,76 +92,102 @@ echo $view->header;
 
 
 
-<section id="team" class="bg-white pd-v-xl">
+<section id="team" class="bg-lightgray">
         <div class="container">
-            <div class="row pd-v-md">
+            <div class="row mg-v-md">
                 <div class="col-lg-12 text-center">
 	                <h2 class="upperfont headfont">Our Team</h2>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-sm-4 col-sm-offset-2">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Chris Jones</h4>
-                        <p class="text-muted">Partner</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><span class="icon-twitter"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-facebook"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-linkedin"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Elizabeth Smith</h4>
-                        <p class="text-muted">Partner</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><span class="icon-twitter"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-facebook"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-linkedin"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
+            <div class="row text-center mg-v-md">
+            	<div class="col-xs-8 col-xs-offset-2">
+            		<div class="row">
+		                <div class="col-sm-4 col-sm-offset-2">
+		                    <div class="team-member">
+		                        <img src="images/chris.jpg" class="img-responsive img-circle bd-white bd-xl" alt="">
+		                        <div class="h3 bodyfont heavyfont">Chris Jones</div>
+		                        <p class="tx-gray bodyfont h4">Partner</p>
+		                        <ul class="list-inline social-buttons">
+		                            <li><a href="#"><span class="icon-twitter"></span></a>
+		                            </li>
+		                            <li><a href="#"><span class="icon-facebook4"></span></a>
+		                            </li>
+		                            <li><a href="#"><span class="icon-linkedin2"></span></a>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                </div>
+		                <div class="col-sm-4">
+		                    <div class="team-member">
+		                        <img src="images/liz.jpg" class="img-responsive img-circle bd-white bd-xl" alt="">
+		                        <div class="h3 bodyfont heavyfont ">Elizabeth Smith</div>
+		                        <p class="tx-gray bodyfont h4">Partner</p>
+		                        <ul class="list-inline social-buttons">
+		                            <li><a href="#"><span class="icon-twitter"></span></a>
+		                            </li>
+		                            <li><a href="#"><span class="icon-facebook4"></span></a>
+		                            </li>
+		                            <li><a href="#"><span class="icon-linkedin2"></span></a>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                </div>
+		            </div>
+	            </div>
             </div>
         </div>
 </section>
 
-<section id="partners" class="bg-white">
+<section id="partners" class="bg-white mg-v-md">
 	<div class="container">
-	     <div class="row pd-v-sm">
+<!--	
+		<div class="row pd-v-sm">
             <div class="col-xs-8 col-xs-offset-2 text-center">
                 <hr class="bd-lightgray">
             </div>
     	</div>
+-->
         <div class="row pd-v-sm">
             <div class="col-lg-12 text-center">
                 <h2 class="upperfont headfont">Our Partners</h2>
             </div>
     	</div>
-		<div class="row pd-v-md bodyfont upperfont text-center">
-			<div class="col-md-1 col-md-offset-2">Planned Parenthood</div>
-			<div class="col-md-1">Emilys List</div>
-			<div class="col-md-1">PoliTemps</div>
-			<div class="col-md-1">NGP VAN</div>
-			<div class="col-md-1">Media Matters</div>
-			<div class="col-md-1">Precision Strategies</div>
-			<div class="col-md-1">270 Strategies</div>
-			<div class="col-md-1">Dewey Square Group</div>
-		</div>		
+    	<div class="row">
+    		<div class="col-md-8 col-md-offset-2">
+    			<div class="row">
+					<div class="row-same-height pd-v-md bodyfont upperfont text-center">
+						<div class="col-md-2 col-xs-height col-middle  col-md-offset-2">
+							<img src="images/dsg.png" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/EMILYsList-1.jpg" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/politemps.jpg" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/ngpvan.png" class="img-responsive">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="row-same-height">
+						<div class="col-md-2 col-xs-height col-middle col-md-offset-2">
+							<img src="images/precision.jpeg" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/media-matters-long.jpg" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/270.png" class="img-responsive">
+						</div>
+						<div class="col-md-2 col-xs-height col-middle ">
+							<img src="images/pp.jpg" class="img-responsive">
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -286,19 +312,19 @@ echo $view->header;
 </section>
 
 
-<section id="contact" class="pd-v-xl bg-white">
+<section id="contact" class="bg-white" style="background-image: url('images/map.png');background-size: cover;background-position: center center;">
 	
 <div class="container">
-            <div class="row pd-v-md">
+            <div class="row mg-v-md">
                 <div class="col-lg-12 text-center">
                     <h2 class="headfont heavyfont upperfont tx-black">Contact Us</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row mg-v-md">
+                <div class="col-md-8 col-md-offset-2">
                     <form name="sentMessage" id="contactForm" novalidate="">
-                        <div class="row">
-                            <div class="col-md-6">
+                        <div class="row-same-height">
+                            <div class="col-md-6 col-md-height">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
@@ -312,14 +338,11 @@ echo $view->header;
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-md-height">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."style="height:70px"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send Message</button>
                             </div>
@@ -355,3 +378,4 @@ echo $view->footer_scripts;
 
 
 
+<script src="js/lander.js"></script>
