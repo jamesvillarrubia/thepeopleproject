@@ -25,6 +25,3 @@
 
 </head>
 
-<body>
-
-	<div id="wrapper" class="bg-white">

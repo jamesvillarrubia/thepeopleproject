@@ -9,7 +9,7 @@ $view->sidebar_right  = $view->render('sidebar-right.php');
 $view->footer_scripts = $view->render('footer-scripts.php'); 
 
 echo $view->header;?>
-<body class="login"><div id="wrapper" class="bg-white">
+<body class="register"><div id="wrapper" class="bg-white">
 <?
 
 echo $view->navbar;
@@ -24,15 +24,16 @@ echo $view->sidebar_right;
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<div class="row pd-v-sm">
-							<div class="headfont heavyfont upperfont h1 tx-white text-center" style="font-size:48px; z-index:1000; position:relative;">LOGIN</div>
+							<div class="headfont heavyfont upperfont h1 tx-white text-center" style="font-size:48px; z-index:1000; position:relative;">REGISTER</div>
 							<div class="bg-black" style="position:absolute; opacity:0.8; height: 100%; width:100%; top:0;"></div>
 						    <form class="col-md-8 col-md-offset-2" id="register" _lpchecked="1">
-
+							    <input type="text" placeholder="First Name" name="firstname" class="form-control">
+							    <input type="text" placeholder="Last Name" name="lastname" class="form-control">
 							    <input type="email" placeholder="Email" name="email" class="form-control">
 							    <input type="password" placeholder="password" name="password" class="form-control" >
 							    <div class="full-w">
 								    <a href="index.php" id="user-toggle" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white" style="width:100%">
-										<span class="dtran bodyfont heavyfont upperfont">LOGIN</span>
+										<span class="dtran bodyfont heavyfont upperfont">REGISTER</span>
 										<span class="dtran text-center icon-arrow-right-outline bg-blue"></span>
 									</a>
 								</div>
@@ -54,7 +55,7 @@ echo $view->sidebar_right;
 								    vertical-align: top;
 								    text-align: right;
 								    float: right;
-								    "><a href="register.php">REGISTER</a></div>
+								    "><a href="login.php">Login</a></div>
 								</div>
 								<div class="full-w">
 								    <a href="#user-toggle" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
@@ -78,6 +79,7 @@ echo $view->sidebar_right;
 										<span class="dtran text-center icon-twitter bd-white bd-xs bg-none bd-left bd-zero"></span>
 									</a>
 								</div>
+
 							    <div class="clearfix"></div>
 						    </form>
 						 </div>

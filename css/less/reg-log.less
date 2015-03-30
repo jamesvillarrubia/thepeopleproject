@@ -1,9 +1,46 @@
-#register input, #login input {
-    margin: 20px -1px;
-    height: 39px;
-    border-radius: 0px;
-    font-size: 12px;
-    text-transform: uppercase;
-    placeholder-color: black;
-    color: black;
+#register, #login{
+	input {
+	    margin: 20px 0px;
+	    height: 39px;
+	    border-radius: 0px;
+	    font-size: 12px;
+	    text-transform: uppercase;
+	    placeholder-color: black;
+	    color: black;
+	    border-width: 0px;
+	}
+	input[type="submit"]{
+		color: @twhite;
+	}
+
+}
+body{
+	#navbar{
+		.colored-logo{
+			display: block;
+		}
+		.white-logo{
+			display: none;
+		}
+	}
+}
+body.login, body.register{
+	#navbar{
+		#menu-toggle, .namebox, .colored-logo{
+			display: none;
+		}
+		.white-logo{
+			display: block;
+		}
+		background-color: transparent;
+
+	}	
+	.navbar-fixer{
+		position: absolute;
+		top: 0;
+	}
+	footer{
+		position: relative;
+	}
+
 }
