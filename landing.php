@@ -64,7 +64,7 @@ echo $view->header;?>
             <div class="intro-text text-center">
                 <div class="welcome-line">Hello & Welcome</div>
                 <div class="title-line">THE <span style="font-weight: 500">PEOPLE</span> PROJECT</div>
-                <a href="http://beta.thepeopleproject.us"><span class="dtran bg-none tx-hv-black bg-hv-white tx-white pd-v-xs pd-h-sm h4 bd-white bd-sm">SEE IT FOR YOURSELF</span></a>
+                <a href="http://beta.peopleproject.us"><span class="dtran bg-none tx-hv-black bg-hv-white tx-white pd-v-xs pd-h-sm h4 bd-white bd-sm">SEE IT FOR YOURSELF</span></a>
             </div>
         </div>
     </header>
