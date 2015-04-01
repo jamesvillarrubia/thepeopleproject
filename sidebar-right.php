@@ -47,6 +47,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-xs-12 mg-v-xs bodyfont upperfont tx-black h5 text-right">
+				<a href="login.php">LOG OUT</a>
+			</div>
+		</div>
 	</div>
 </div>
 

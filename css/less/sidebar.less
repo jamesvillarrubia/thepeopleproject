@@ -143,47 +143,6 @@
 }
 
 
-
-a.block-set{
-        line-height: 40px;
-        display: inline-block;
-        height: 40px;
-        line-height: 40px;
-        vertical-align: middle;
-        padding-left: 10px;
-        position: relative;
-        font-size: 15px;
-        text-decoration: none;
-        span{
-            height: 40px;
-            line-height: 40px;
-        }
-        span ~ span{
-            height: 40px;
-            line-height: 40px;
-            width: 40px;
-            display: inline-block;
-            position: absolute;
-            right: 0;
-            text-align: center;
-            font-size: 22px;
-        }
-        &:not(.no-hover):hover {
-            text-decoration: none;
-            color: @tlightblue;
-            span{
-                background-color: @twhite;
-            }
-            span ~ span{
-                background-color: @twhite;
-            }
-        }
-        &.no-hover:hover{
-            color: white;
-        }
-    }
-
-
 @media(min-width:768px) {
     #wrapper.toggled-left {
         padding-left: 250px;

@@ -89,7 +89,7 @@ body{
 
 
 .dtran{
-  transition: all 0.15s ease;
+  transition: background-color 0.1s ease;
 }
 
 .bd-{
@@ -417,51 +417,20 @@ body{
 }
 
 
-
-
-
-.icon-plus:before {
-  content: "\e600";
-}
-
-.icon-plus2:before {
-  content: "\e601";
-}
-
-.icon-circle-plus:before {
-  content: "\e602";
-}
-
-.icon-arrow-move-outline:before {
-  content: "\e603";
-}
-
-.icon-arrow-down-outline:before {
-  content: "\e604";
-}
-
-.icon-arrow-up-outline:before {
-  content: "\e605";
-}
-
-.icon-arrow-left-outline:before {
-  content: "\e606";
-}
-
-.icon-arrow-right-outline:before {
-  content: "\e607";
-}
-
-.icon-user:before {
-  content: "\e608";
-}
-
-.icon-circle-with-plus:before {
-  content: "\e609";
+.icon-cog:before {
+  content: "\e61e";
 }
 
 .icon-envelop:before {
   content: "\e945";
+}
+
+.icon-location2:before {
+  content: "\e948";
+}
+
+.icon-map2:before {
+  content: "\e94b";
 }
 
 .icon-search:before {
@@ -470,6 +439,10 @@ body{
 
 .icon-target:before {
   content: "\e9b3";
+}
+
+.icon-list2:before {
+  content: "\e9bb";
 }
 
 .icon-plus3:before {
@@ -580,6 +553,66 @@ body{
   content: "\e613";
 }
 
+.icon-map:before {
+  content: "\e61a";
+}
+
+.icon-grid:before {
+  content: "\e61b";
+}
+
+.icon-list:before {
+  content: "\e61c";
+}
+
+.icon-grid2:before {
+  content: "\e61d";
+}
+
+.icon-plus:before {
+  content: "\e600";
+}
+
+.icon-plus2:before {
+  content: "\e601";
+}
+
+.icon-circle-plus:before {
+  content: "\e602";
+}
+
+.icon-arrow-move-outline:before {
+  content: "\e603";
+}
+
+.icon-arrow-down-outline:before {
+  content: "\e604";
+}
+
+.icon-arrow-up-outline:before {
+  content: "\e605";
+}
+
+.icon-arrow-left-outline:before {
+  content: "\e606";
+}
+
+.icon-arrow-right-outline:before {
+  content: "\e607";
+}
+
+.icon-chat-3:before {
+  content: "\e61f";
+}
+
+.icon-user:before {
+  content: "\e608";
+}
+
+.icon-circle-with-plus:before {
+  content: "\e609";
+}
+
 .icon-plus-circle:before {
   content: "\e614";
 }
@@ -604,5 +637,49 @@ body{
   content: "\e619";
 }
 
+
+
+
+
+
+a.block-set{
+        line-height: 40px;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        padding-left: 10px;
+        position: relative;
+        font-size: 15px;
+        text-decoration: none;
+        span{
+            height: 40px;
+            line-height: 40px;
+            //background-color: transparent;
+        }
+        span ~ span{
+            height: 40px;
+            line-height: 40px;
+            width: 40px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            font-size: 22px;
+        }
+        &:not(.no-hover):hover {
+            text-decoration: none;
+            color: @tlightblue;
+            span{
+                background-color: transparent;
+            }
+            span ~ span{
+                background-color: @twhite;
+            }
+        }
+        &.no-hover:hover{
+            color: white;
+        }
+    }
 
 
