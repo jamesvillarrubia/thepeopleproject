@@ -32,7 +32,7 @@ echo $view->sidebar_right;
 							    <input type="email" placeholder="Email" name="email" class="form-control">
 							    <input type="password" placeholder="password" name="password" class="form-control" >
 							    <div class="full-w">
-								    <a href="index.php" id="user-toggle" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white" style="width:100%">
+								    <a href="edit.php" id="user-toggle" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white" style="width:100%">
 										<span class="dtran bodyfont heavyfont upperfont">REGISTER</span>
 										<span class="dtran text-center icon-arrow-right-outline bg-blue"></span>
 									</a>

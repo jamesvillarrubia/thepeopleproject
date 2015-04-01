@@ -12,13 +12,13 @@ $view->footer = $view->render('footer.php');
 //$view->sidebar_right  = $view->render('sidebar-right.php'); 
 $view->footer_scripts = $view->render('footer-scripts.php'); 
 
-echo $view->header;
-//echo $view->navbar;
-//echo $view->sidebar_left;
-//echo $view->sidebar_right;
-
+echo $view->header;?>
+<body class="search"><div id="landing" class="bg-white">
+<?
 
 ?>
+
+
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top bg-black">
         <div class="container">
@@ -42,19 +42,13 @@ echo $view->header;
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#partners">Partners</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -65,11 +59,12 @@ echo $view->header;
 
     <!-- Header -->
     <header class="pd-v-xl bg-black tx-white">
+    	<div class="colorizer"></div>
         <div class="container pd-v-xl">
             <div class="intro-text text-center">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="welcome-line">Hello & Welcome</div>
+                <div class="title-line">THE <span style="font-weight: 500">PEOPLE</span> PROJECT</div>
+                <a href="http://beta.thepeopleproject.us"><span class="dtran bg-none tx-hv-black bg-hv-white tx-white pd-v-xs pd-h-sm h4 bd-white bd-sm">SEE IT FOR YOURSELF</span></a>
             </div>
         </div>
     </header>
@@ -77,13 +72,47 @@ echo $view->header;
 
 
 <section id="quotes" class="pd-v-xl bg-white">
-	Quote
+	<div class="container">
+	    <div class="row text-center mg-v-md">
+            <div class="col-sm-4">
+            	<div><span class="icon-search h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Search multiple HR databases from across the Progressive Movement</div>
+            </div>
+            <div class="col-sm-4">
+            	<div><span class="icon-map h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Find Candidates based on their current and preferred geography</div>
+            </div>
+            <div class="col-sm-4">
+            	<div><span class="icon-twitter h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Review candidate Social Media activities</div>
+            </div>
+        </div>
+       	<div class="row text-center mg-v-md">
+            <div class="col-sm-4">
+            	<div><span class="icon-target h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Connect through the PeopleProject API</div>
+            </div>
+            <div class="col-sm-4">
+            	<div><span class="icon-list h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Store your searches results and share them with your colleagues</div>
+            </div>
+            <div class="col-sm-4">
+            	<div><span class="icon-linkedin2 h1 tx-blue"></span></div>
+            	<div class="h4 tx-gray lightfont">Import Candidate information through Facebook, Twitter, and Linkedin</div>
+            </div>
+		</div>
+	</div>
 
 </section>
 
 
-<section id="bigwuote" class="pd-v-xl bg-blue">
-	Big Quote
+<section id="bigquote" class="pd-v-xl bg-blue">
+        <div class="container">
+            <div class="text-center">
+				<span class="bodyfont tx-lightblue">&#8221;</span>
+				<span class="bodyfont tx-white">This is the tool the Progressive Movement has been waiting for.</span>
+			</div>
+		</div>
 </section>
 
 
@@ -207,7 +236,7 @@ echo $view->header;
 							<span class="price">29</span>
 							<span class="period">/month</span>
 						</div>
-						<div class="plan-name">Freelance</div>
+						<div class="plan-name">Individual</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">5</span>
@@ -222,12 +251,12 @@ echo $view->header;
 								online terminal
 							</div>
 							<div class="spec">
-								<span class="variable">10</span>
-								total products
+								<span class="variable">3</span>
+								saved searches
 							</div>
 							<div class="spec">
-								<span class="variable">1.0%</span>
-								Transaction fee
+								<span class="variable">10</span>
+								exports / month
 							</div>
 						</div>
 						<a class="btn-signup button-clear bg-lightblue" href="signup.html">
@@ -258,12 +287,12 @@ echo $view->header;
 								online terminal
 							</div>
 							<div class="spec">
-								<span class="variable">15</span>
-								total products
+								<span class="variable">Unlimited</span>
+								saved Searches
 							</div>
 							<div class="spec">
-								<span class="variable">0.5%</span>
-								Transaction fee
+								<span class="variable">Unlimited</span>
+								exports
 							</div>
 						</div>
 						<a class="btn-signup button-clear" href="signup.html">
@@ -278,7 +307,7 @@ echo $view->header;
 							<span class="price">119</span>
 							<span class="period">/month</span>
 						</div>
-						<div class="plan-name">Premium</div>
+						<div class="plan-name">Enterprise</div>
 						<div class="specs">
 							<div class="spec">
 								<span class="variable">Unlimited</span>
@@ -293,12 +322,12 @@ echo $view->header;
 								online terminal
 							</div>
 							<div class="spec">
-								<span class="variable">25</span>
-								total products
+								<span class="variable">Unlimited</span>
+								searches
 							</div>
 							<div class="spec">
-								<span class="variable">No</span>
-								Transaction fee
+								<span class="variable">Full</span>
+								API access
 							</div>
 						</div>
 						<a class="btn-signup button-clear" href="signup.html">
