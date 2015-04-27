@@ -70,9 +70,9 @@ echo $view->header;?>
         <div class="col-md-6">
             <div class="intro-text text-center">
             	<div class="" style="
-				    padding: 17px 13px;
-				    text-transform: uppercase;
-				    font-size: 20px;
+				      padding: 3px 0px 0px 15px;
+  text-transform: uppercase;
+  font-size: 20px;
 				">
             		Sign up to hear more:
             	</div>
@@ -105,41 +105,26 @@ echo $view->header;?>
         </div>
     </header>
 
-
-
-<section id="quotes" class="pd-v-xl bg-white">
+<section id="About" class="pd-v-xl bg-white">
 	<div class="container">
+	  <div class="row mg-v-md">
+                <div class="col-lg-12 text-center">
+	                <h2 class="upperfont headfont">About the People PRoject</h2>
+                </div>
+            </div>
 	    <div class="row text-center mg-v-md">
-            <div class="col-sm-4">
-            	<div><span class="icon-search h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Search multiple HR databases from across the Progressive Movement</div>
-            </div>
-            <div class="col-sm-4">
-            	<div><span class="icon-map h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Find Candidates based on their current and preferred geography</div>
-            </div>
-            <div class="col-sm-4">
-            	<div><span class="icon-twitter h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Review candidate Social Media activities</div>
-            </div>
-        </div>
-       	<div class="row text-center mg-v-md">
-            <div class="col-sm-4">
-            	<div><span class="icon-target h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Connect through the PeopleProject API</div>
-            </div>
-            <div class="col-sm-4">
-            	<div><span class="icon-list h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Store your searches results and share them with your colleagues</div>
-            </div>
-            <div class="col-sm-4">
-            	<div><span class="icon-linkedin2 h1 tx-blue"></span></div>
-            	<div class="h4 tx-gray lightfont">Import Candidate information through Facebook, Twitter, and Linkedin</div>
-            </div>
+	    	<div class="col-md-12 h3 tx-gray lightfont" style="line-height: 1.4em">
+			Over the past 20 years, we’ve seen administrations, campaigns, and the political world adopt and fine-tune the latest private sector technology in many key areas — media buying, polling, big data, targeting, GOTV, volunteer activation, advertising — but not in talent management, the people side of the equation. Political parties, administrations, and campaigns generally don’t keep track of good people with regard to hiring, recruiting, sourcing, and maximizing career development.
+			</div>
 		</div>
-	</div>
-
+	    <div class="row text-center mg-v-md">
+	    	<div class="col-md-12 h3 tx-gray lightfont">
+			<strong>Let’s change that.</strong>
+			</div>
+		</div>
 </section>
+
+
 
 
 <section id="bigquote" class="pd-v-xl bg-blue">
@@ -157,52 +142,70 @@ echo $view->header;?>
 
 
 
-<section id="team" class="bg-lightgray">
+<section id="team" class="bg-white pd-v-xl">
         <div class="container">
-            <div class="row mg-v-md">
+        	<div class="row mg-v-md">
                 <div class="col-lg-12 text-center">
-	                <h2 class="upperfont headfont">Our Team</h2>
+	                <h2 class="upperfont headfont">Leadership</h2>
                 </div>
             </div>
-            <div class="row text-center mg-v-md">
-            	<div class="col-xs-8 col-xs-offset-2">
-            		<div class="row">
-		                <div class="col-sm-4 col-sm-offset-2">
-		                    <div class="team-member">
-		                        <img src="images/chris.jpg" class="img-responsive img-circle bd-white bd-xl" alt="">
-		                        <div class="h3 bodyfont heavyfont">Chris Jones</div>
-		                        <p class="tx-gray bodyfont h4">Partner</p>
-		                        <ul class="list-inline social-buttons">
-		                            <li><a href="#"><span class="icon-twitter"></span></a>
-		                            </li>
-		                            <li><a href="#"><span class="icon-facebook4"></span></a>
-		                            </li>
-		                            <li><a href="#"><span class="icon-linkedin2"></span></a>
-		                            </li>
-		                        </ul>
-		                    </div>
-		                </div>
-		                <div class="col-sm-4">
-		                    <div class="team-member">
-		                        <img src="images/liz.jpg" class="img-responsive img-circle bd-white bd-xl" alt="">
-		                        <div class="h3 bodyfont heavyfont ">Elizabeth Smith</div>
-		                        <p class="tx-gray bodyfont h4">Partner</p>
-		                        <ul class="list-inline social-buttons">
-		                            <li><a href="#"><span class="icon-twitter"></span></a>
-		                            </li>
-		                            <li><a href="#"><span class="icon-facebook4"></span></a>
-		                            </li>
-		                            <li><a href="#"><span class="icon-linkedin2"></span></a>
-		                            </li>
-		                        </ul>
-		                    </div>
-		                </div>
-		            </div>
-	            </div>
+		    <div class="row mg-v-md h3 tx-gray bodyfont lightfont">
+                <div class="col-md-4 col-md-offset-2 text-center">
+	                Robert Christian Jones
+                </div>
+                <div class="col-md-4 text-center">
+	                Elizabeth Sears Smith
+                </div>
+            </div>
+
+             <div class="row mg-v-md">
+                <div class="col-lg-12 text-center">
+	                <h2 class="upperfont headfont">Advisory Board</h2>
+                </div>
+            </div>
+		    <div class="row mg-v-md h3 tx-gray bodyfont lightfont">
+                <div class="col-md-4 col-md-offset-2 text-center">
+	                Dean Aguillen<br>
+					Jill Alper<br>
+					Charles Baker III<br>
+					David Brock<br>
+					Maria Cardona<br>
+					Jen O’Malley Dillon<br>
+					Karen Finney<br>
+					Jon Haber<br>
+					Marc Lasry
+				</div>
+				<div class="col-md-4 text-center">
+					Penny Lee<br>
+					Tom Manatos<br>
+					Lenny Mendonca<br>
+					Arnie Miller<br>
+					Cecile Richards<br>
+					Steve Rosenthal<br>
+					Stephanie Schriock<br>
+					Mitch Stewart
+				</div>
+			</div>
+			<div class="row mg-v-md">
+                <div class="col-lg-12 text-center">
+	                <h2 class="upperfont headfont">Technical Advisory Board</h2>
+                </div>
+            </div>
+            <div class="row mg-v-md h3 tx-gray bodyfont lightfont">
+                <div class="col-md-4 col-md-offset-2 text-center">
+					Aneesh Chopra<br>
+					Shelly Kapoor Collins<br>
+					Teddy Goff
+				</div>
+				<div class="col-md-4 text-center">
+					Nathaniel Pearlman<br>
+					Bryan Whitaker<br>
+					Paul Zygielbaum
+                </div>
             </div>
         </div>
 </section>
-
+<?php /*
 <section id="partners" class="bg-white mg-v-md">
 	<div class="container">
 <!--	
@@ -212,6 +215,7 @@ echo $view->header;?>
             </div>
     	</div>
 -->
+
         <div class="row pd-v-sm">
             <div class="col-lg-12 text-center">
                 <h2 class="upperfont headfont">Our Partners</h2>
@@ -419,7 +423,8 @@ echo $view->header;?>
 
 </section>
 
-
+*/
+?>
 
 <footer class="bg-black tx-lightgray pd-v-sm" style="position:relative;">
 <div class="container-mix">

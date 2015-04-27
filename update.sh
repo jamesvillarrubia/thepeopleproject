@@ -20,8 +20,8 @@ if [[ "$1" == "push" && "$2" == "to" && "$3" == "beta" ]]; then
 	echo "\033[33;1m  *  Pushing to FTP..\033[0m"
 
 	echo "\033[33;1m  *  Deploying Staging Files from git... \033[0m"
-	git ftp push -u prosperoftp --passwd '!Tc$eySOZb' ftp://03a806b.netsolhost.com/htdocs/beta/ -v
-	git ftp init -u prosperoftp --passwd '!Tc$eySOZb' ftp://03a806b.netsolhost.com/htdocs/beta/ -v
+	#git ftp push -u prosperoftp --passwd '!Tc$eySOZb' ftp://03a806b.netsolhost.com/htdocs/beta/ -v
+	#git ftp init -u prosperoftp --passwd '!Tc$eySOZb' ftp://03a806b.netsolhost.com/htdocs/beta/ -v
 	echo ""
 	echo "\033[32;1m**** And you're done!\033[0m"
 	echo ""
