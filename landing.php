@@ -14,10 +14,6 @@ $view->footer_scripts = $view->render('footer-scripts.php');
 
 echo $view->header;?>
 <body class="search"><div id="landing" class="bg-white">
-<?
-
-?>
-
 
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top bg-black">
@@ -64,16 +60,12 @@ echo $view->header;?>
 		    position: relative;
 		    z-index: 1;
 		">
-        <div class="col-md-6 logo-wrapper">
+        <div class="col-md-6 pd-v-sm logo-wrapper">
         	<img src="images/white_logo.png" class="img-responsive logo" style="">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 pd-v-sm">
             <div class="intro-text text-center">
-            	<div class="" style="
-				      padding: 3px 0px 0px 15px;
-  text-transform: uppercase;
-  font-size: 20px;
-				">
+            	<div class="" style="padding: 3px 0px 0px 15px; text-transform: uppercase; font-size: 20px;">
             		Sign up to hear more:
             	</div>
 	            <!-- Begin MailChimp Signup Form -->
@@ -105,35 +97,43 @@ echo $view->header;?>
         </div>
     </header>
 
-<section id="About" class="pd-v-xl bg-white">
-	<div class="container">
-	  <div class="row mg-v-md">
-                <div class="col-lg-12 text-center">
-	                <h2 class="upperfont headfont">About the People PRoject</h2>
-                </div>
-            </div>
+
+<section class="pd-v-md bg-gray" >
+	<div class="container">                
+        <div class="row text-center mg-v-md">
+	    	<div class="col-md-12 h3 tx-white lightfont" style="line-height: 1.4em">
+			The People Project is a database application for progressive and Democratic talent. This endeavor will enable organizations to track and manage the most important resource: <strong>people.</strong>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="About" class="pd-v-md bg-white">
+	<div class="container">                
 	    <div class="row text-center mg-v-md">
+		    <div class="col-lg-12 text-center">
+		        <h2 class="upperfont headfont">About the People PRoject</h2>
+	        </div>
 	    	<div class="col-md-12 h3 tx-gray lightfont" style="line-height: 1.4em">
 			Over the past 20 years, we’ve seen administrations, campaigns, and the political world adopt and fine-tune the latest private sector technology in many key areas — media buying, polling, big data, targeting, GOTV, volunteer activation, advertising — but not in talent management, the people side of the equation. Political parties, administrations, and campaigns generally don’t keep track of good people with regard to hiring, recruiting, sourcing, and maximizing career development.
 			</div>
 		</div>
 	    <div class="row text-center mg-v-md">
 	    	<div class="col-md-12 h3 tx-gray lightfont">
-			<strong>Let’s change that.</strong>
+				<strong>Let’s change that.</strong>
 			</div>
 		</div>
 </section>
-
-
 
 
 <section id="bigquote" class="pd-v-xl bg-blue">
-        <div class="container">
-            <div class="text-center">
-				<span class="bodyfont tx-lightblue">&#8221;</span>
-				<span class="bodyfont tx-white">This is the tool the Progressive Movement has been waiting for.</span>
-			</div>
+    <div class="container">
+        <div class="text-center">
+			<span class="bodyfont tx-lightblue">&#8221;</span>
+			<span class="bodyfont tx-white">This is the tool the Progressive Movement has been waiting for.</span>
 		</div>
+	</div>
 </section>
 
 
@@ -142,7 +142,7 @@ echo $view->header;?>
 
 
 
-<section id="team" class="bg-white pd-v-xl">
+<section id="team" class="bg-white pd-v-md">
         <div class="container">
         	<div class="row mg-v-md">
                 <div class="col-lg-12 text-center">
@@ -151,7 +151,7 @@ echo $view->header;?>
             </div>
 		    <div class="row mg-v-md h3 tx-gray bodyfont lightfont">
                 <div class="col-md-4 col-md-offset-2 text-center">
-	                Robert Christian Jones
+	                Chris Jones
                 </div>
                 <div class="col-md-4 text-center">
 	                Elizabeth Sears Smith
@@ -170,8 +170,11 @@ echo $view->header;?>
 					Charles Baker III<br>
 					David Brock<br>
 					Maria Cardona<br>
+					Aneesh Chopra<br>
+					Shelly Kapoor Collins<br>
 					Jen O’Malley Dillon<br>
 					Karen Finney<br>
+					Teddy Goff<br>
 					Jon Haber<br>
 					Marc Lasry
 				</div>
@@ -180,29 +183,15 @@ echo $view->header;?>
 					Tom Manatos<br>
 					Lenny Mendonca<br>
 					Arnie Miller<br>
+					Nathaniel Pearlman<br>
 					Cecile Richards<br>
 					Steve Rosenthal<br>
 					Stephanie Schriock<br>
-					Mitch Stewart
-				</div>
-			</div>
-			<div class="row mg-v-md">
-                <div class="col-lg-12 text-center">
-	                <h2 class="upperfont headfont">Technical Advisory Board</h2>
-                </div>
-            </div>
-            <div class="row mg-v-md h3 tx-gray bodyfont lightfont">
-                <div class="col-md-4 col-md-offset-2 text-center">
-					Aneesh Chopra<br>
-					Shelly Kapoor Collins<br>
-					Teddy Goff
-				</div>
-				<div class="col-md-4 text-center">
-					Nathaniel Pearlman<br>
+					Mitch Stewart<br>
 					Bryan Whitaker<br>
 					Paul Zygielbaum
-                </div>
-            </div>
+				</div>
+			</div>
         </div>
 </section>
 <?php /*
