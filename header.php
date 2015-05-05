@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>The People Projects</title>
+	<title>The People Project</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link href="css/styles.min.css" rel="stylesheet">
