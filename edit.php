@@ -15,7 +15,8 @@ echo $view->navbar;
 echo $view->sidebar_left;
 echo $view->sidebar_right;
 ?>
-	<div id="page-content-wrapper">
+	<div id="page-content-wrapper" class="image-bg">
+		<div class="bg-colorizer white"></div>
 		<div class="container-mix">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 pd-md"></div>

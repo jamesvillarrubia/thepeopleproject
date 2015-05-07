@@ -1,5 +1,5 @@
 #wrapper{
-	height: 100%;
+	min-height: 100%;
 	//background-color:rgba(0,0,0,0.1);
 }
 .image-bg{
@@ -21,8 +21,12 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-
+	&.white{
+		background: none;
+		background-color: rgba(255,255,255,0.95);
+	}
 }
+
 #page-content-wrapper{
 	min-height: 100%;
 }

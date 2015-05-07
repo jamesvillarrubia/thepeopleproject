@@ -15,18 +15,19 @@ echo $view->navbar;
 echo $view->sidebar_left;
 echo $view->sidebar_right;
 ?>
-	<div id="page-content-wrapper">
+	<div id="page-content-wrapper" class="image-bg">
+		<div class="bg-colorizer white"></div>
 		<div class="container-mix">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md"></div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 bg-lightblue text-right">
+				<div class="col-sm-10 col-sm-offset-1 pd-md"></div>
+				<div class="col-sm-10 col-sm-offset-1 bg-lightblue text-right">
 					<span class="tx-white pd-sm mg-n bodyfont heavyfont upperfont h4" style="float:left;padding: 15px 20px;">Search</span>
 					<a href="search.php"><span class="search-button icon-search" style=""></span></a>
 					<a href="grid.php"><span class="search-button icon-grid" style=""></span></a>
 					<a href="list.php"><span class="search-button icon-list" style=""></span></a>
 					<a href="map.php"><span class="search-button icon-map" style=""></span></a>
 					</div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
+				<div class="col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
 					<div id="builder-basic"></div>
 					<div class="col-xs-12 pd-v-sm pd-h-n" style="padding-bottom:0px;">
 						<a href="grid.php" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white col-md-3 col-md-offset-9">

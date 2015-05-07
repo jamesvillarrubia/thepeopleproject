@@ -18,15 +18,15 @@ echo $view->sidebar_right;
 	<div id="page-content-wrapper">
 		<div class="container-mix">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md"></div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 bg-lightblue text-right">
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 pd-md"></div>
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 bg-lightblue text-right">
 					<span class="tx-white pd-sm mg-n bodyfont heavyfont upperfont h4" style="float:left;padding: 15px 20px;">Search</span>
 					<a href="search.php"><span class="search-button icon-search" style=""></span></a>
 					<a href="grid.php"><span class="search-button icon-grid" style=""></span></a>
 					<a href="list.php"><span class="search-button icon-list" style=""></span></a>
 					<a href="map.php"><span class="search-button icon-map" style=""></span></a>
 					</div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
 					<div class="row">
 					<div class="col-md-3 pd-sm">
 						<img src="images/chris.jpg" class="img-responsive"/>

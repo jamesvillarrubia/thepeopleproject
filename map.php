@@ -15,18 +15,19 @@ echo $view->navbar;
 echo $view->sidebar_left;
 echo $view->sidebar_right;
 ?>
-	<div id="page-content-wrapper">
+	<div id="page-content-wrapper" class="image-bg">
+		<div class="bg-colorizer white"></div>
 		<div class="container-mix">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md"></div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 bg-lightblue text-right">
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 pd-md"></div>
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 bg-lightblue text-right">
 					<span class="tx-white pd-sm mg-n bodyfont heavyfont upperfont h4" style="float:left;padding: 15px 20px;">Search</span>
 					<a href="search.php"><span class="search-button icon-search" style=""></span></a>
 					<a href="grid.php"><span class="search-button icon-grid" style=""></span></a>
 					<a href="list.php"><span class="search-button icon-list" style=""></span></a>
 					<a href="map.php"><span class="search-button icon-map active" style=""></span></a>
 					</div>
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
+				<div class="col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
 					<div id="map" style="min-height: 400px;"></div>
 						<div class="mg-md bg-white map-box dtran" style="display:none; position: absolute; z-index: 10000; height: 100px; width: 200px; bottom: 0px; right: 0px;">
 						<div style="
@@ -74,6 +75,7 @@ echo $view->sidebar_right;
 			</div>
 		</div>
 	</div>
+	<div class="clear-fix"></div>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript">
             // When the window has finished loading create our google map below

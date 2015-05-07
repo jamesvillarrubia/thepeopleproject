@@ -17,23 +17,115 @@
 .query-builder{
 	.rules-group-container {
 	    border: 1px solid rgb(153, 153, 153);
-	    background-color: white;
+	    background-color: @tlightgray;
 	    border-radius: 0px;
 	}
 	.rule-container, .rule-placeholder, .rules-group-container {
 	    border: 1px solid rgb(241, 239, 239);
+	    background-color: transparent;
+	}
+	.btn{
+		border-radius: 0px;
+		border: 3px solid white;
 	}
 	label.btn.btn-xs.btn-primary.active {
 	    background-color: rgb(38, 50, 132);
-	    border: 1px solid white;
+	    border-radius: 0px;
 	}
 	label.btn.btn-xs.btn-primary {
 	    background-color: rgb(176, 176, 176);
-	    border: 1px solid white;
+	    border-radius: 0px;
 	}
-	.btn-success {
-	  color: #fff;
-	  background-color: #5cb85c;
-	  border-color: #4cae4c;
+	.rules-group-header{
+	  background-color: white;
+	  min-height: 10px;
+	  padding: 4px;
+	}
+	.rule-container>div:not(.rule-header) {
+	  display: inline-block;
+	  margin: 0 5px 0 0;
+	  vertical-align: top;
+	  min-height: 26px;
+	}
+	.rules-group-container, .rules-container, .rule-container{
+		padding-right: 0px;
+
+	}
+
+	.rule-filter-container, .rule-operator-container, .rule-value-container{
+	    border: 1px solid #ccc;
+	    width: 120px;
+	    border-radius: 0px;
+	    overflow: hidden;
+	    background: #fafafa no-repeat 90% 50%;
+	    cursor: pointer;
+		select {
+		    padding: 5px 8px;
+		    width: 100%;
+		    border: none;
+		    box-shadow: none;
+		    background: transparent;
+		    background-image: none;
+		    -webkit-appearance: none;
+		    cursor: pointer;
+		    &[multiple]{
+		    	padding: 5px 8px;
+		    }
+		}
+
+		select:focus {
+		    outline: none;
+		}
+
+	}
+	.rule-value-container{
+		border: 1px solid #ccc;
+	    width: 120px;
+	    border-radius: 0px;
+	    overflow: hidden;
+	    background: #fafafa no-repeat 90% 50%;
+	    input, input[type="number"], input[type="list"], input[type="text"]{
+	    	padding: 5px 8px;
+		    width: 100%;
+		    border: none;
+		    box-shadow: none;
+		    background: transparent;
+		    background-image: none;
+		    -webkit-appearance: none;
+	    }
+	    input:focus {
+		    outline: none;
+		}
+		&:not(:empty) {
+  			border-left: 1px solid #ddd;
+  			padding-left: 0px;
+		}
+	}
+	.rules-list{
+	 	>:first-child:before {
+  			top: -12px;
+  			height: calc(75%);
+		}
+		>:after {
+  			top: 40%;
+  			border-width: 0 0 0 4px;
+  		}
+  		>:before {
+  			border-width: 0 0 4px 4px;
+  		}
+		& >:after, & >:before {
+			  content: '';
+			  position: absolute;
+			  left: -15px;
+			  width: 15px;
+			  height: calc(75%);
+			  border-color: white;
+			  border-style: solid;
+		}
+	}
+	.rule-container {
+	  background-color: rgb(217, 217, 217);
+	  border-radius: 0px;
+	  padding-right: 4px;
 	}
 }
