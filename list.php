@@ -135,11 +135,11 @@ $res = array(
 								<div clas="bodyfont tx-black"><?php echo $res[$x]['loc']; ?> | <?php echo $res[$x]['field']; ?></div>
 								<div clas="bodyfont tx-black">From <?php echo $res[$x]['from']; ?> to <?php echo $res[$x]['to']; ?></div>
 							</div>
-						<div class="col-md-4 col-md-height col-middle ">
-							<a href="" class="tx-no-dec dtran tx-hv-blue bg-hv-white icon-envelop tx-white img-circle pd-xs bg-lightblue inline-b h4 mg-h-xs" style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue bg-hv-white  icon-facebook3 tx-white img-circle pd-xs bg-lightblue inline-b h4 mg-h-xs" style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue bg-hv-white  icon-twitter tx-white img-circle pd-xs bg-lightblue inline-b h4 mg-h-xs" style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue bg-hv-white  icon-linkedin2 tx-white img-circle pd-xs bg-lightblue inline-b h4 mg-h-xs" style=""></a>
+						<div class="col-md-4 col-md-height col-middle text-right">
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h4 " style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h4 " style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs  inline-b h4 " style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h4 " style=""></a>
 						</div>
 
 							<div class="col-md-2 col-md-height col-middle pd-h-n">
