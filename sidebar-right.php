@@ -15,7 +15,7 @@
 				Jones
 			</div>
 			<div class="col-xs-12 mg-v-xs bodyfont upperfont tx-black h5">
-				<a href="edit.php">EDIT PROFILE</a>
+				<a href="edit-filled.php">EDIT PROFILE</a>
 			</div>
 			<div class="col-xs-12 mg-v-xs bodyfont upperfont tx-black h5">
 				<a href="view.php">VIEW PROFILE</a>

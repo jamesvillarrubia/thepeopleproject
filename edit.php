@@ -54,6 +54,7 @@ echo $view->sidebar_right;
 						</div>							    
 					</div>
 					<div class="col-md-3">
+
 					</div>
 					<div class="col-md-9 col-md-offset-3 h4 upperfont headfont pd-h-sm">Summary</div>
 					<div class="col-md-9 col-md-offset-3 pd-v-sm" id="summary">

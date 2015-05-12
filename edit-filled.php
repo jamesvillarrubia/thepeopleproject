@@ -59,19 +59,18 @@ echo $view->sidebar_right;
 					<div class="col-md-9 col-md-offset-3 h4 upperfont headfont pd-h-sm">Summary</div>
 					<div class="col-md-9 col-md-offset-3 pd-v-sm" id="summary">
 							<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">
+Entrepeneur with a background in politics, public affairs and government.  Businessman with a a vision toward bringing together people, politics and jobs.
 
-							Entrepeneur with a background in politics, public affairs and government.  Businessman with a a vision toward bringing together people, politics and jobs.
-
-							Specialties: Recruiting
-							Executive Search 
-							Staffing
-							Human Resources
-							Political Consulting
-							Business Development
-							Marketing 
-							Public Relations 
-							Brand Management
-							Operations
+Specialties: Recruiting
+Executive Search 
+Staffing
+Human Resources
+Political Consulting
+Business Development
+Marketing 
+Public Relations 
+Brand Management
+Operations
 							</textarea>
 					</div>
 
@@ -107,17 +106,18 @@ echo $view->sidebar_right;
 								">
 							</div>
 							<div class="form-group col-sm-12" id="summary">
-								<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">Chris is Managing Partner of CapitolWorks, a public affairs executive search firm in Washington, DC. 
+								<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">
+Chris is Managing Partner of CapitolWorks, a public affairs executive search firm in Washington, DC. 
 
-								CapitolWorks provides senior level recruiting services for the public affairs industry and its clients include top lobbying and law firms, Fortune 50 companies, and agenda-setting non-profits and trade associations. 
+CapitolWorks provides senior level recruiting services for the public affairs industry and its clients include top lobbying and law firms, Fortune 50 companies, and agenda-setting non-profits and trade associations. 
 
-								Jones counts among his clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the DC area. 
+Jones counts among his clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the DC area. 
 
-								Chris is also founder and CEO of PoliTemps, a temporary and permanent staffing agency focused on the political and public affairs industry. Since 1996, PoliTemps has tripled in size and has added several full-time staffers. The firm counts among its clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the DC area. 
+Chris is also founder and CEO of PoliTemps, a temporary and permanent staffing agency focused on the political and public affairs industry. Since 1996, PoliTemps has tripled in size and has added several full-time staffers. The firm counts among its clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the DC area. 
 
-								Prior to founding PoliTemps, Chris served in the U. S. Navy from 1984 to 1988, then worked as an intern for the House Judiciary Committee under Congressman Jack Brooks (D-TX) and later as a Staff Assistant for Congressman and Majority Whip David Bonior (D-MI). In 1994 he joined the Ann Richards for Governor campaign in Austin, Texas.
+Prior to founding PoliTemps, Chris served in the U. S. Navy from 1984 to 1988, then worked as an intern for the House Judiciary Committee under Congressman Jack Brooks (D-TX) and later as a Staff Assistant for Congressman and Majority Whip David Bonior (D-MI). In 1994 he joined the Ann Richards for Governor campaign in Austin, Texas.
 
-								Chris has been featured in numerous newspapers, on radio and TV, and in political resource guides and publications as a reliable source for news and information regarding politics, people, campaigns, and jobs. Chris is a member of American Association of Political Consultants, the American Staffing Association, and a Certified Staffing Professional.
+Chris has been featured in numerous newspapers, on radio and TV, and in political resource guides and publications as a reliable source for news and information regarding politics, people, campaigns, and jobs. Chris is a member of American Association of Political Consultants, the American Staffing Association, and a Certified Staffing Professional.
 								</textarea>
 							</div>	
 							<hr class='pd-h-sm mg-h-sm bd-black tx-black '>		    
@@ -154,12 +154,11 @@ echo $view->sidebar_right;
 							</div>
 							<div class="form-group col-sm-12" id="summary">
 								<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">
+As president and CEO, Chris oversees the business development, marketing, and management activities of the company.
 
-								As president and CEO, Chris oversees the business development, marketing, and management activities of the company.
+The firm counts among its clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the D.C. area. 
 
-								The firm counts among its clients a premier roster of the top political consultants, PR firms, associations, and non-profits in the D.C. area. 
-
-								PoliTemps has been featured in numerous newspapers, political resource guides, and publications as a reliable source for news and information regarding politics, people, campaigns and jobs. He is also a managing partner of CapitolWorks, a public affairs executive search firm.
+PoliTemps has been featured in numerous newspapers, political resource guides, and publications as a reliable source for news and information regarding politics, people, campaigns and jobs. He is also a managing partner of CapitolWorks, a public affairs executive search firm.
 								</textarea>
 							</div>					    
 							<hr class='pd-h-sm mg-h-sm bd-black tx-black '>		    
@@ -307,9 +306,10 @@ echo $view->sidebar_right;
 								">
 							</div>
 							<div class="form-group col-sm-12" id="summary">
-								<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">Provided Intelligence support and analysis on USS Blue Ridge, and later detached to Commander Seventh Fleet Intelligence Department (N2).  
-								Provided analysis, early warning reports to Officers and Staff. 
-								Briefed commanders on Soviet and third world surface, subsurface and air threats to Seventh Fleet AOR
+								<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">
+Provided Intelligence support and analysis on USS Blue Ridge, and later detached to Commander Seventh Fleet Intelligence Department (N2).  
+Provided analysis, early warning reports to Officers and Staff. 
+Briefed commanders on Soviet and third world surface, subsurface and air threats to Seventh Fleet AOR
 								</textarea>
 							</div>	
 							<hr class='pd-h-sm mg-h-sm bd-black tx-black '>		    

@@ -169,6 +169,7 @@ echo $view->header;?>
 					Jill Alper<br>
 					Charles Baker III<br>
 					David Brock<br>
+					Irene Bueno<br>
 					Maria Cardona<br>
 					Aneesh Chopra<br>
 					Shelly Kapoor Collins<br>
@@ -176,9 +177,10 @@ echo $view->header;?>
 					Karen Finney<br>
 					Teddy Goff<br>
 					Jon Haber<br>
-					Marc Lasry
+					
 				</div>
 				<div class="col-md-4 text-center">
+					Marc Lasry<br>
 					Penny Lee<br>
 					Tom Manatos<br>
 					Lenny Mendonca<br>

@@ -15,59 +15,103 @@ echo $view->navbar;
 echo $view->sidebar_left;
 echo $view->sidebar_right;
 
-
-$src_array = array(
+$res = array(
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
+		'name'=>'Chris Jones',
+		'pos'=>'Owner',
+		'comp'=>'Politempts',
+		'loc'=>'Washington, DC',
+		'field'=>'Human Resources and Staffing',
+		'from'=>'2006',
+		'to'=>'Present',
+		'photo'=>'chris.jpg'
+	),
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
+		'name'=>'Liz Sears Smith',
+		'pos'=>'Managing Director',
+		'comp'=>'Kent Strategies',
+		'loc'=>'Washington, DC',
+		'field'=>'Public Policy',
+		'from'=>'2006',
+		'to'=>'Present',
+		'photo'=>'liz.jpg'
+	),
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
+		'name'=>'James Villarrubia',
+		'pos'=>'Front End Developer',
+		'comp'=>'Democratic National Committee',
+		'loc'=>'Washington, DC',
+		'field'=>'Political Organization',
+		'from'=>'2014',
+		'to'=>'Present',
+		'photo'=>'james.jpg'
+	),
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
+		'name'=>'Bernard Prat',
+		'pos'=>'Director of Product Management',
+		'comp'=>'Recruitrics',
+		'loc'=>'New York, New York',
+		'field'=>'Computer Software',
+		'from'=>'2014',
+		'to'=>'Present',
+		'photo'=>'bernie.jpg'
+	),
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
+		'name'=>'Jayne Cobb',
+		'pos'=>'Public Relations Manager',
+		'comp'=>'Canton Consulting',
+		'loc'=>'Baltimore, MD',
+		'field'=>'Human Resources and Staffing',
+		'from'=>'2008',
+		'to'=>'Present',
+		'photo'=>'head1.jpg'
+	),
 	array(
-		'name'=>'',
-		'img'=>'',
-		'title'=>'',
-		'comp'=>'',
-		'period'=>''
-		),
-	);
+		'name'=>'Ben Barker',
+		'pos'=>'Artistic Director',
+		'comp'=>'The Fleet Grp.',
+		'loc'=>'Baltimore, MD',
+		'field'=>'Arts Organization',
+		'from'=>'2008',
+		'to'=>'Present',
+		'photo'=>'head2.jpg'
+	),
+	array(
+		'name'=>'Alexis Sloane',
+		'pos'=>'HR Director',
+		'comp'=>'SGH Insurance',
+		'loc'=>'Baltimore, MD',
+		'field'=>'Human Resources and Staffing',
+		'from'=>'2008',
+		'to'=>'Present',
+		'photo'=>'head3.jpg'
+	),
+	array(
+		'name'=>'Kay Frye',
+		'pos'=>'Chief Technology Officer',
+		'comp'=>'Serenity Staff Solutions',
+		'loc'=>'Baltimore, MD',
+		'field'=>'Human Resources and Staffing',
+		'from'=>'2008',
+		'to'=>'Present',
+		'photo'=>'head4.jpg'
+	),
+	array(
+		'name'=>'Don Noble',
+		'pos'=>'Owner',
+		'comp'=>'Adipose Networking',
+		'loc'=>'Baltimore, MD',
+		'field'=>'Human Resources and Staffing',
+		'from'=>'2008',
+		'to'=>'Present',
+		'photo'=>'head5.jpg'
+	)
 
 
-
-
-
-
-
+);
 ?>
+
+
 	<div id="page-content-wrapper">
 		<div class="container-mix">
 			<div class="row">
@@ -80,68 +124,35 @@ $src_array = array(
 					<a href="map.php"><span class="search-button icon-map" style=""></span></a>
 					</div>
 				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
-					<div class="row">
-					<div class="col-md-3 pd-sm">
-						<img src="images/chris.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Chris Jones</div>
-						<div class="text-center tx-black heavyfont h5">Owner</div>
-						<div class="text-center tx-black h5">Politemps</div>
-					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/liz.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Liz Sears Smith</div>
-						<div class="text-center tx-black heavyfont h5">Managing Director</div>
-						<div class="text-center tx-black h5">Kent Strategies</div>
-					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/head1.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Jayne Cobb</div>
-						<div class="text-center tx-black heavyfont h5">Public Relations Manager</div>
-						<div class="text-center tx-black h5">Canton Consulting</div>
-					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/james.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">James Villarrubia</div>
-						<div class="text-center tx-black heavyfont h5">Senior Front End Developer</div>
-						<div class="text-center tx-black h5">Democratic National Committee</div>
 
-					</div>
-					</div>
-					<div class="row">
+<?php
+	for($x=0;$x<count($res); $x++){ 
+		if($x % 4 == 0){
+			echo '<div class="row">';
+		}
+?>
+	
 					<div class="col-md-3 pd-sm">
-						<img src="images/bernie.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Bernie Prat</div>
-						<div class="text-center tx-black heavyfont h5">Director, Product Management</div>
-						<div class="text-center tx-black h5">Recruitics</div>
+						<img src="images/<?php echo $res[$x]['photo'];?>" class="img-responsive"/>
+						<div class="text-center tx-lightblue h4"><?php echo $res[$x]['name'];?></div>
+						<div class="text-center tx-black heavyfont h5"><?php echo $res[$x]['pos'];?></div>
+						<div class="text-center tx-black h5"><?php echo $res[$x]['comp'];?></div>
+						<div class="text-center tx-black h5"><?php echo $res[$x]['loc'];?></div>
+						<div class="text-center tx-black h5"><?php echo $res[$x]['from'].' to '.$res[$x]['to'];?></div>
+						<div class="text-center">
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h5 " style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h5 " style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs inline-b h5" style=""></a>
+							<a href="" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h5 " style=""></a>
+						</div>
 					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/head2.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Ben Barker</div>
-						<div class="text-center tx-black heavyfont h5">Artistic Director</div>
-						<div class="text-center tx-black h5">The Fleet Grp.</div>
-					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/head3.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Alexis Sloane</div>
-						<div class="text-center tx-black heavyfont h5">HR Director</div>
-						<div class="text-center tx-black h5">SGH Insurance</div>
-					</div>
-					<div class="col-md-3 pd-sm">
-						<img src="images/head5.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Kay Frye</div>
-						<div class="text-center tx-black heavyfont h5">Chief Technology Officer</div>
-						<div class="text-center tx-black h5">Serenity Staff Solutions</div>
-					</div>
-					</div>
-					<div class="row">
-					<div class="col-md-3 pd-sm">
-						<img src="images/head4.jpg" class="img-responsive"/>
-						<div class="text-center tx-lightblue h4">Don Noble</div>
-						<div class="text-center tx-black heavyfont h5">Owner</div>
-						<div class="text-center tx-black h5">Adipose Networking</div>
-					</div>
-					</div>
-
+<? 
+		if(($x%4 == 3) || ($x ==(count($res)-1))){
+			echo '</div>';
+		}
+	} 
+?>
+			
 				</div>
 			</div>
 		</div>

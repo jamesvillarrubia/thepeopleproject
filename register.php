@@ -32,7 +32,7 @@ echo $view->sidebar_right;
 							    <input type="email" placeholder="Email" name="email" class="form-control">
 							    <input type="password" placeholder="password" name="password" class="form-control" >
 							    <div class="full-w">
-								    <a href="edit-empty.php" id="user-toggle" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white" style="width:100%">
+								    <a href="edit.php" id="user-toggle" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white" style="width:100%">
 										<span class="dtran bodyfont heavyfont upperfont">REGISTER</span>
 										<span class="dtran text-center icon-arrow-right-outline bg-blue"></span>
 									</a>
@@ -58,13 +58,13 @@ echo $view->sidebar_right;
 								    "><a href="login.php">Login</a></div>
 								</div>
 								<div class="full-w">
-								    <a href="edit-full.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="edit-filled.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Register with LinkedIn</span>
 										<span class="dtran text-center icon-linkedin2 bd-white bd-xs bg-none bd-left bd-zero"></span>
 									</a>
 								</div>
 								<div class="full-w mg-v-sm">
-								    <a href="edit-partial.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="edit-half.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Register with Facebook</span>
 										<span class="dtran text-center icon-facebook3 bd-white bd-xs bg-none bd-left bd-zero" style="
 										    text-align: left;
@@ -74,7 +74,7 @@ echo $view->sidebar_right;
 									</a>
 								</div>
 								<div class="full-w mg-v-sm">
-								    <a href="edit-partial.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="edit-half.php" id="user-toggle" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Register with Twitter</span>
 										<span class="dtran text-center icon-twitter bd-white bd-xs bg-none bd-left bd-zero"></span>
 									</a>

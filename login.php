@@ -57,13 +57,13 @@ echo $view->sidebar_right;
 								    "><a href="register.php">REGISTER</a></div>
 								</div>
 								<div class="full-w">
-								    <a href="" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="view.php" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Login with LinkedIn</span>
 										<span class="dtran text-center icon-linkedin2 bd-white bd-xs bg-none bd-left bd-zero"></span>
 									</a>
 								</div>
 								<div class="full-w mg-v-sm">
-								    <a href="" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="view.php" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Login with Facebook</span>
 										<span class="dtran text-center icon-facebook3 bd-white bd-xs bg-none bd-left bd-zero" style="
 										    text-align: left;
@@ -73,7 +73,7 @@ echo $view->sidebar_right;
 									</a>
 								</div>
 								<div class="full-w mg-v-sm">
-								    <a href="" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
+								    <a href="view.php" class="dtran block-set text-left bg-none bd-xs bd-white tx-white bg-hv-white" style="width:100%; height:42px;">
 										<span class="dtran bodyfont heavyfont">Login with Twitter</span>
 										<span class="dtran text-center icon-twitter bd-white bd-xs bg-none bd-left bd-zero"></span>
 									</a>
