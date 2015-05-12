@@ -14,6 +14,59 @@ echo $view->header;?>
 echo $view->navbar;
 echo $view->sidebar_left;
 echo $view->sidebar_right;
+
+
+$src_array = array(
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	array(
+		'name'=>'',
+		'img'=>'',
+		'title'=>'',
+		'comp'=>'',
+		'period'=>''
+		),
+	);
+
+
+
+
+
+
+
 ?>
 	<div id="page-content-wrapper">
 		<div class="container-mix">
@@ -51,6 +104,7 @@ echo $view->sidebar_right;
 						<div class="text-center tx-lightblue h4">James Villarrubia</div>
 						<div class="text-center tx-black heavyfont h5">Senior Front End Developer</div>
 						<div class="text-center tx-black h5">Democratic National Committee</div>
+
 					</div>
 					</div>
 					<div class="row">

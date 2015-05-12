@@ -36,16 +36,16 @@ echo $view->sidebar_right;
 					</div>
 					<div class="col-md-6 pd-h-n">
 						<div class="form-group col-sm-6">
-							<input type="text" placeholder="First Name" value="" name="firstname" class="form-control">
+							<input type="text" placeholder="First Name" value="Chris" name="firstname" class="form-control">
 						</div>
 						<div class="form-group col-sm-6">
-							<input type="text" value="Jones"  placeholder="" name="firstname" class="form-control">
+							<input type="text" value="Jones"  placeholder="Last Name" name="firstname" class="form-control">
 						</div>
 						<div class="form-group col-sm-12">
-							<input type="text" value="" placeholder="Email" name="firstname" class="form-control">
+							<input type="text" value="chris@peopleproject.us" placeholder="Email" name="firstname" class="form-control">
 						</div>
 						<div class="form-group col-sm-12">
-							<input type="text" value="" placeholder="Location" name="firstname" class="form-control">
+							<input type="text" value="Washington, DC" placeholder="Location" name="firstname" class="form-control">
 						</div>
 						<div class="form-group col-sm-12">
 							<select class="form-control">
@@ -54,6 +54,7 @@ echo $view->sidebar_right;
 						</div>							    
 					</div>
 					<div class="col-md-3">
+						<img src="images/chris.jpg" class="img-responsive" style="max-width: 155px;margin:auto;">
 					</div>
 					<div class="col-md-9 col-md-offset-3 h4 upperfont headfont pd-h-sm">Summary</div>
 					<div class="col-md-9 col-md-offset-3 pd-v-sm" id="summary">

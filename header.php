@@ -13,7 +13,8 @@
 
 	<!-- Bootstrap Core CSS -->
 	<link href="css/styles.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css">
+	<link href="css/jquery.tagit.css" rel="stylesheet" type="text/css">
 	<!-- Custom CSS -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

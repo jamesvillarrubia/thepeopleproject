@@ -96,6 +96,7 @@
 				}]
 			}
 		});
+ 		$("#skills input").tagit();
 		</script>
 
 
