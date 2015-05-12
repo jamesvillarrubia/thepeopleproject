@@ -17,7 +17,7 @@ echo $view->sidebar_right;
 ?>
 <style>
 .gm-style-iw {
-   width: 235px !important;
+   width: 240px !important;
    top: 0px !important;
    left: 0px !important;
    background-color: #fff;
