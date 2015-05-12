@@ -28,6 +28,7 @@ echo $view->sidebar_right;
 					<a href="map.php"><span class="search-button icon-map" style=""></span></a>
 					</div>
 				<div class="col-sm-10 col-sm-offset-1 pd-md bg-lightgray">
+					<textarea class='full-w bd-lightblue bd-xs'>('NAME' contains 'a') AND ('Distance' from 'Washington, D.C.' < 10.25 )</textarea>
 					<div id="builder-basic"></div>
 					<div class="col-xs-12 pd-v-sm pd-h-n" style="padding-bottom:0px;">
 						<a href="grid.php" class="dtran block-set text-left bg-lightblue tx-white bg-hv-white col-md-3 col-md-offset-9">
