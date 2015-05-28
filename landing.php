@@ -38,13 +38,13 @@ echo $view->header;?>
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll tx-white tx-hv-lightblue" href="#team">Team</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll tx-white tx-hv-lightblue" href="#partners">Partners</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#leaders">Leaders</a>
                     </li>
                     <li>
-                        <a class="page-scroll tx-white tx-hv-lightblue" href="#contact">Contact</a>
+                        <a class="page-scroll tx-white tx-hv-lightblue" href="#pricing">Pricing</a>
                     </li>
                 </ul>
             </div>
@@ -108,8 +108,7 @@ echo $view->header;?>
 	</div>
 </section>
 
-
-<section id="About" class="pd-v-md bg-white">
+<section id="about" class="pd-v-md bg-white pd-v-lg">
 	<div class="container">                
 	    <div class="row text-center mg-v-md">
 		    <div class="col-lg-12 text-center">
@@ -142,7 +141,7 @@ echo $view->header;?>
 
 
 
-<section id="team" class="bg-white pd-v-md">
+<section id="leaders" class="bg-white pd-v-lg">
         <div class="container">
         	<div class="row mg-v-md">
                 <div class="col-lg-12 text-center">
@@ -196,6 +195,10 @@ echo $view->header;?>
 			</div>
         </div>
 </section>
+
+
+
+
 <?php /*
 <section id="partners" class="bg-white mg-v-md">
 	<div class="container">
@@ -250,9 +253,10 @@ echo $view->header;?>
 		</div>
 	</div>
 </section>
-
-<section id="pricing" class="bg-blue">
-		<div class="container" style="max-width:750px;">
+*/
+?>
+<section id="pricing" class="bg-blue pd-v-lg">
+		<div class="container">
 			<div class="row pd-v-md">
 				<div class="col-md-12">
 					<h3 class="text-center h3 upperfont bodyfont tx-white">Free trial. No contract. Cancel when you want.</h3>
@@ -260,34 +264,30 @@ echo $view->header;?>
 				</div>
 			</div>
 			<div class="row"><div class="row-same-height text-center">
-				<div class="col-md-4 col-xs-height col-bottom">
+				<div class="col-md-2 col-md-1-offset col-xs-height col-bottom">
 					<div class="chart first">
 						<div class="quantity">
-							<span class="dollar">$</span>
-							<span class="price">29</span>
-							<span class="period">/month</span>
+							<span class="dollar"></span>
+							<span class="price">Free</span>
+							<span class="period"></span>
 						</div>
-						<div class="plan-name">Individual</div>
+						<div class="plan-name">City Councilor</div>
 						<div class="specs">
 							<div class="spec">
-								<span class="variable">5</span>
-								team members
+								<span class="variable">1</span>
+								Personal Profile
 							</div>
 							<div class="spec">
-								<span class="variable">Digital</span>
-								recurring billing
+								<span class="variable">1</span>
+								Shareable Resume
 							</div>
 							<div class="spec">
-								<span class="variable">Virtual</span>
-								online terminal
+								<span class="variable">Links</span>
+								to Major Social Media
 							</div>
 							<div class="spec">
-								<span class="variable">3</span>
-								saved searches
-							</div>
-							<div class="spec">
-								<span class="variable">10</span>
-								exports / month
+								<span class="variable">Connect</span>
+								with Friends and Colleagues
 							</div>
 						</div>
 						<a class="btn-signup button-clear bg-lightblue" href="signup.html">
@@ -295,35 +295,30 @@ echo $view->header;?>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-height col-bottom">
+				<div class="col-md-2 col-xs-height col-bottom">
 					<div class="chart featured">
-						<div class="popular">Most popular</div>
 						<div class="quantity">
 							<span class="dollar">$</span>
-							<span class="price">79</span>
+							<span class="price">29</span>
 							<span class="period">/month</span>
 						</div>
-						<div class="plan-name">Profesional</div>
+						<div class="plan-name">Delegate</div>
 						<div class="specs">
 							<div class="spec">
-								<span class="variable">15</span>
-								team members
+								<span class="variable">1</span>
+								Personal Profile
 							</div>
 							<div class="spec">
-								<span class="variable">Digital</span>
-								recurring billing
+								<span class="variable">1</span>
+								Shareable Resume
 							</div>
 							<div class="spec">
-								<span class="variable">Virtual</span>
-								online terminal
+								<span class="variable">5</span>
+								Targeted Searches / month
 							</div>
 							<div class="spec">
-								<span class="variable">Unlimited</span>
-								saved Searches
-							</div>
-							<div class="spec">
-								<span class="variable">Unlimited</span>
-								exports
+								<span class="variable">Connect</span>
+								with Friends and Colleagues
 							</div>
 						</div>
 						<a class="btn-signup button-clear" href="signup.html">
@@ -331,34 +326,93 @@ echo $view->header;?>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-height col-bottom">
-					<div class="chart last">
+				<div class="col-md-2 col-xs-height col-bottom">
+					<div class="chart">
+						<div class="popular">Most popular</div>
 						<div class="quantity">
 							<span class="dollar">$</span>
-							<span class="price">119</span>
+							<span class="price">100</span>
 							<span class="period">/month</span>
 						</div>
-						<div class="plan-name">Enterprise</div>
+						<div class="plan-name">Representative</div>
 						<div class="specs">
 							<div class="spec">
-								<span class="variable">Unlimited</span>
-								team members
+								<span class="variable">1</span>
+								Personal Profile
 							</div>
 							<div class="spec">
-								<span class="variable">Digital</span>
-								recurring billing
-							</div>
-							<div class="spec">
-								<span class="variable">Virtual</span>
-								online terminal
+								<span class="variable">1</span>
+								Shareable Resume
 							</div>
 							<div class="spec">
 								<span class="variable">Unlimited</span>
-								searches
+								Targeted Searches / month
+							</div>
+							<div class="spec">
+								<span class="variable">Direct</span>
+								Messaging to Applicants
+							</div>
+						</div>
+						<a class="btn-signup button-clear" href="signup.html">
+							<span>Start free trial</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-height col-bottom">
+					<div class="chart">
+						<div class="quantity">
+							<span class="dollar">$</span>
+							<span class="price">300</span>
+							<span class="period">/month</span>
+						</div>
+						<div class="plan-name">Senator</div>
+						<div class="specs">
+							<div class="spec">
+								<span class="variable">Team</span>
+								Messaging and notations
 							</div>
 							<div class="spec">
 								<span class="variable">Full</span>
-								API access
+								List Management
+							</div>
+							<div class="spec">
+								<span class="variable">Unlimited</span>
+								Targeted Searches / month
+							</div>
+							<div class="spec">
+								<span class="variable">Direct</span>
+								Messaging to Applicants
+							</div>
+						</div>
+						<a class="btn-signup button-clear" href="signup.html">
+							<span>Start free trial</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-height col-bottom">
+					<div class="chart">
+						<div class="quantity">
+							<span class="dollar">$</span>
+							<span class="price">750</span>
+							<span class="period">/month</span>
+						</div>
+						<div class="plan-name">Madam President</div>
+						<div class="specs">
+							<div class="spec">
+								<span class="variable">Full</span>
+								Feature Access
+							</div>
+							<div class="spec">
+								<span class="variable">Full</span>
+								List Management
+							</div>
+							<div class="spec">
+								<span class="variable">Team</span>
+								Messaging and notations
+							</div>
+							<div class="spec">
+								<span class="variable">On-Demand </span>
+								Support from HR Professionals
 							</div>
 						</div>
 						<a class="btn-signup button-clear" href="signup.html">
@@ -371,7 +425,7 @@ echo $view->header;?>
 	</div>
 </section>
 
-
+<? /*
 <section id="contact" class="bg-white" style="background-image: url('images/map.png');background-size: cover;background-position: center center;">
 	
 <div class="container">

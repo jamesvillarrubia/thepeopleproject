@@ -136,10 +136,10 @@ $res = array(
 								<div clas="bodyfont tx-black">From <?php echo $res[$x]['from']; ?> to <?php echo $res[$x]['to']; ?></div>
 							</div>
 						<div class="col-md-4 col-md-height col-middle text-right">
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h4 " style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h4 " style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs  inline-b h4 " style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h4 " style=""></a>
+							<a  target="_blank"href="mailto:john@politemps.com" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h4 " style=""></a>
+							<a  target="_blank"href="http://facebook.com" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h4 " style=""></a>
+							<a  target="_blank"href="http://twitter.com/PoliTemps" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs  inline-b h4 " style=""></a>
+							<a  target="_blank"href="http://linkedin.com" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h4 " style=""></a>
 						</div>
 
 							<div class="col-md-2 col-md-height col-middle pd-h-n">

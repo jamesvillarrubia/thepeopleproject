@@ -27,3 +27,21 @@
 			</div>
 		</nav>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog pd-v-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-blue">
+        <h4 class="modal-title tx-white" id="myModalLabel">UPGRADE REQUIRED</h4>
+      </div>
+      <div class="modal-body h5">
+        Sorry, this feature isn't available with your account.  <a href="landing.php#pricing">Upgrade now!</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

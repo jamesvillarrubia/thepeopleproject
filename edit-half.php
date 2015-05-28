@@ -56,6 +56,35 @@ echo $view->sidebar_right;
 					<div class="col-md-3">
 						<img src="images/chris.jpg" class="img-responsive" style="max-width: 155px;margin:auto;">
 					</div>
+
+					<div id="address" class='pd-v-md'>
+						<div class="col-md-9 col-md-offset-3 h4 upperfont headfont pd-h-sm">Address</div>
+						<div class="col-md-9 col-md-offset-3 pd-h-n pd-v-sm">
+							<div class="form-group col-sm-12">
+								<input type="text" placeholder="Address Line 1" value=""name="firstname" class="form-control">
+							</div>
+							<div class="form-group col-sm-12">
+								<input type="text"  value=""placeholder="Address Line 2" name="firstname" class="form-control">
+							</div>
+							<div class="form-group col-sm-5">
+								<input type="text" placeholder="City"  value="" name="firstname" class="form-control">
+							</div>
+							<div class="form-group col-sm-3">
+								<input type="text" placeholder="State"  value="" name="firstname" class="form-control">
+							</div>
+							<div class="form-group col-sm-4">
+								<input type="text" placeholder="Zip Code"  value="" name="firstname" class="form-control">
+							</div>
+							<hr class='pd-h-sm mg-h-sm bd-black tx-black '>		    
+		
+						</div>
+
+					</div>
+
+
+
+
+					
 					<div class="col-md-9 col-md-offset-3 h4 upperfont headfont pd-h-sm">Summary</div>
 					<div class="col-md-9 col-md-offset-3 pd-v-sm" id="summary">
 							<textarea type="text" style="height:100px;" placeholder="Summary..." name="firstname" class="form-control">

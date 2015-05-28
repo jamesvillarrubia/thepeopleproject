@@ -1,5 +1,12 @@
 <?php
 include_once('class.template.php');
+require "twitteroauth/autoload.php";
+use Abraham\TwitterOAuth\TwitterOAuth;
+$connection = new TwitterOAuth('LuLZDPwffV1v861JMjMM5Qh18', '7JAOLzZYSTybzABOJ0X58y5vs2D8fuTENZt2cClWMLsIq4HAfY', '2830350386-vJ3qRu6Jym83j64EHPUrq3OaFbPRghLTOe6IyVL', 'zDfQY5JNXE4HJWC336mO9Tzu3kpNANMstDiVnl5cVnDcG');
+$content = $connection->get("account/verify_credentials");
+
+
+
 $view = new Template(); 
 $view->header = $view->render('header.php'); 
 $view->navbar = $view->render('navbar.php'); 
@@ -28,10 +35,28 @@ echo $view->sidebar_right;
 						<div class="row">
 							<div class="col-md-2 col-sm-4 text-center">
 								<img src="images/chris.jpg" class='img-circle img-responsive'/>
+								
 							</div>
 							<div class="col-md-10 col-sm-8 pd-v-n mg-v-n">
 								<div class="col-md-12 h2 mg-v-n headfont upperfont tx-lightblue" style="font-size: 40px;">Chris Jones</div>
 								<div class="col-md-12 bodyfont upperfont tx-black mg-v-sm h4">Chris.jones@GMAIL.COM</div>
+								<div class="col-md-12">
+									<a href="http://facebook.com" target="_blank"><span class="tx-white inline-b img-circle bg-lightblue icon-facebook3 h3" style="
+    padding: 10px 7px 10px 4px;
+    font-size: 33px;
+    line-height: 24px;
+    vertical-align: top;
+    margin: 0px 5px 0 0;
+"></span></a>
+									<a href="https://www.linkedin.com/profile/view?id=8956305" target="_blank"><span class="tx-white img-circle inline-b bg-lightblue icon-linkedin2 h3" style="
+    padding: 10px;
+    margin: 0px 5px 0 0;
+"></span></a>
+									<a href="http://twitter.com/PoliTemps" target="_blank"><span class="tx-white img-circle inline-b bg-lightblue icon-twitter h3" style="
+    padding: 10px;
+    margin: 0px 5px 0 0;
+"></span></a>
+								</div>
 								<div class="pd-v-sm col-md-12 mg-v-n"></div>
 								
 
@@ -193,12 +218,30 @@ array(
 								</div>
 <?php } ?>
 
+								<div class="col-xs-12 tx-white"><hr class="bd-sm"></div>
+								<div class="pd-v-xs col-md-12 mg-v-n"></div>
+								<div class="mg-v-sm">
+									<div class="col-sm-6 bodyfont upperfont tx-lightblue h4 mg-v-n">Twitter Feed</div>
+									<div class="clearfix"></div>
+								</div>
+								
+<?php 
+$tweets = $connection->get("statuses/user_timeline", array("count"=>5,"screen_name"=>"PoliTemps"));
+//print_r($tweets[0]->text);
+for($x=0;$x<count($tweets); $x++){ ?>
+								<div class="mg-v-sm">
+									<div class="col-sm-12 text-left bodyfont upperfont normalfont tx-black h5 pd-v-n mg-v-n">
+										<?php echo $tweets[$x]->created_at; ?>
+									</div>
+									<div class="col-sm-12 text-left bodyfont tx-black pd-v-n mg-v-n  size-md">
+										<?php echo $tweets[$x]->text; ?>
+									</div>
+									<div class="clearfix"></div>
+								</div>								
+<?php } ?>
 
-
-
-
+								<div class="col-md-12 pd-v-sm"></div>
 							</div>
-							<div class="col-md-12 pd-v-sm"></div>
 						</div>
 					</div>
 					<div class="col-xs-10 col-xs-offset-1 pd-v-md pd-h-n">
@@ -207,6 +250,7 @@ array(
 							<span class="dtran text-center icon-arrow-down-outline bg-blue"></span>
 						</a>
 					</div>
+					
 				</div>
 			</div>
 		</div>

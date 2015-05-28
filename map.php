@@ -18,14 +18,22 @@ echo $view->sidebar_right;
 <style>
 .gm-style-iw {
    width: 240px !important;
-   top: 0px !important;
-   left: 0px !important;
    background-color: #fff;
-   box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+   left:0px !important;
+   height: 100px !important;
+   top: 0px !important;
+   /*box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
    border: 1px solid rgba(72, 181, 233, 0.6);
-   border-radius: 2px 2px 0 0;
+   border-radius: 2px 2px 0 0;*/
 }
-
+.gm-style-iw > div{
+	overflow: visible !important;
+	width: 187px !important;
+}
+.gm-style-iw > div > div{
+	overflow: visible !important;
+	width: 250px !important;
+}
 
 </style>
 	<div id="page-content-wrapper" class="image-bg">
@@ -79,6 +87,10 @@ echo $view->sidebar_right;
 
 			}
 			/**
+			 *
+			 *eight: 25px;position: absolute;z-index: 1025;width: 100%;line-height: 17px;font-size: 16px;color: white;text-align: left;padding: 2px 10px;
+			 *
+			 * 
 			 * Data for the markers consisting of a name, a LatLng and a zIndex for
 			 * the order in which these markers should display on top of each
 			 * other.
@@ -88,7 +100,17 @@ echo $view->sidebar_right;
 			  ['Coogee Beach', 38.843293, -77.09106, 5],
 			  ['Cronulla Beach', 38.833293, -77.095056, 3],
 			  ['Manly Beach', 38.863293, -77.08407, 2],
-			  ['Maroubra Beach', 38.823293, -77.039246, 1]
+			  ['Maroubra Beach', 38.823293, -77.039246, 1],
+			  ['Maroubra Beach', 38.813293, -77.179246, 1],
+			  ['Maroubra Beach', 38.793293, -77.239246, 1],
+			  ['Maroubra Beach', 38.783293, -77.139246, 1],
+			  ['Maroubra Beach', 38.763293, -77.136246, 1],
+			  ['Maroubra Beach', 38.743293, -77.119246, 1],
+			  ['Maroubra Beach', 38.833293, -77.019246, 1],
+			  ['Maroubra Beach', 38.853293, -77.009246, 1],
+			  ['Maroubra Beach', 38.833293, -77.219246, 1],
+
+
 			];
 
 			function setMarkers(map, locations) {
@@ -124,11 +146,16 @@ echo $view->sidebar_right;
 						'<div style="max-width: 60px;margin: 7px;display: inline-block;">'+
 							'<img src="images/chris.jpg" class="img-responsive">'+
 						'</div>'+
-						'<div style="display: inline-block;/* width: 60%; */vertical-align: top;margin-top: 7px;font-size:13px;" class="">'+
+						'<div style="display: inline-block;vertical-align: top;margin-top: 7px;font-size:13px;" class="">'+
 							'<div class="tx-blue h4">Chris Jones</div>'+
 							'<div>Owner @ Politemps</div>'+
 						'</div>'+
-						'<div class="bg-lightblue" style="height: 25px;position: absolute;z-index: 1025;width: 100%;line-height: 17px;font-size: 16px;color: white;text-align: left;padding: 2px 10px;"><span class="icon-envelop tx-white" style=""></span><span class="icon-facebook3 tx-white" style=""></span><span class="icon-twitter tx-white" style=""></span><span class="icon-linkedin2 tx-white" style=""></span></div>'+
+						'<div class="bg-lightblue" style="padding: 2px 10px">'+
+							'<span class="icon-envelop tx-white" style="padding: 0px 5px;"></span>'+
+							'<span class="icon-facebook3 tx-white" style="padding: 0px 5px;"></span>'+
+							'<span class="icon-twitter tx-white" style="padding: 0px 5px;"></span>'+
+							'<span class="icon-linkedin2 tx-white" style="padding: 0px 5px;"></span>'+
+							'</div>'+
 					'</div>';
 /*
 				  <div id="content">'+

@@ -140,10 +140,10 @@ $res = array(
 						<div class="text-center tx-black h5"><?php echo $res[$x]['loc'];?></div>
 						<div class="text-center tx-black h5"><?php echo $res[$x]['from'].' to '.$res[$x]['to'];?></div>
 						<div class="text-center">
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h5 " style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h5 " style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs inline-b h5" style=""></a>
-							<a href="" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h5 " style=""></a>
+							<a target="_blank" href="mailto:bob@peopleproject.us" class="tx-no-dec dtran tx-hv-blue icon-envelop tx-lightblue pd-xs inline-b h5 " style=""></a>
+							<a target="_blank" href="http://www.facebook.com" class="tx-no-dec dtran tx-hv-blue icon-facebook3 tx-lightblue pd-xs inline-b h5 " style=""></a>
+							<a target="_blank" href="http://www.twitter.com/PoliTemps" class="tx-no-dec dtran tx-hv-blue icon-twitter tx-lightblue pd-xs inline-b h5" style=""></a>
+							<a target="_blank" href="http://www.linkedin.com" class="tx-no-dec dtran tx-hv-blue icon-linkedin2 tx-lightblue pd-xs inline-b h5 " style=""></a>
 						</div>
 					</div>
 <? 
