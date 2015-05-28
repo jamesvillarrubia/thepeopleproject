@@ -7,7 +7,7 @@
     	header( 'Location: landing.php' ) ;
 
     }else{
-    	header( 'Location: login.php' ) ;  	
+    	header( 'Location: landing.php' ) ;  	
     }
 
 ?>
