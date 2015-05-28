@@ -20,7 +20,7 @@
 			</a>
 		</div>
 		<div style="text-align:right;" class="mg-v-xs">
-			<a href="/thepeopleproject/edit.php" class="dtran block-set full-w text-left bg-lightblue tx-white bg-hv-white" style="margin:0px;">
+			<a href="edit.php" class="dtran block-set full-w text-left bg-lightblue tx-white bg-hv-white" style="margin:0px;">
 				<span class="dtran bodyfont heavyfont">Settings</span>
 				<span class="dtran text-center icon-cog"></span>
 			</a>
