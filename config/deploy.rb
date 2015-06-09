@@ -12,7 +12,7 @@ set :branch, "master"
 set :user, "peopleproject"
 
 
-set :deploy_to, "public_html/beta"
+set :deploy_to, "public_html"
 set :ssh_options, { :forward_agent => true}
 set :deploy_via, :remote_cache
 set :copy_strategy, :checkout
