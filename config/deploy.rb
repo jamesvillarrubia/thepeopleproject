@@ -35,7 +35,7 @@ namespace :deploy do
  
 #  desc "Create symlinks to shared data such as uploaded images"
   task :create_symlink, :roles => :app do
-#	run "rm -f public_html/beta/current && ln -s releases/#{release_name} public_html/current"
+	run "rm -f public_html/current && ln -s releases/#{release_name} public_html/current"
 	#run "ln -s #{current_release} current2" 
 	#run "ln -s #{deploy_to}/#{shared_dir}/ce_cache #{current_release}/images/ce_cache"
 #    run "ln -s #{deploy_to}/#{shared_dir}/core/images #{current_release}/images"
